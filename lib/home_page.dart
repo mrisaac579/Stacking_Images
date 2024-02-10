@@ -50,6 +50,10 @@ class MyHomePage extends StatelessWidget {
               width: 180,
             ),
           ),
+          Positioned(
+            left: 40,
+            child: Image.asset('assets/images/dispatch.png'),
+          ),
         ],
       ),
     );
